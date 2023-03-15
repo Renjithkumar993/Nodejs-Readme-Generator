@@ -1,0 +1,18 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renjith Rajakumar",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4",
+    "inquirer-press-to-continue": "^1.1.4",
+    "inquirer-tree-prompt": "^1.1.2",
+    "prepend-file": "^2.0.1"
+  }
+}
