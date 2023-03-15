@@ -1,9 +1,9 @@
 
-(![GNUGPLv3](https://img.shields.io/badge/License-GNUGPLv3-Green))
-# Readme Generator
+(![ISCLicense](https://img.shields.io/badge/License-ISCLicense-Green))
+# Readme generator
 
 ## Description
-jidfhbdfndnfkodnldgm osmngldfnognsd
+dfkjdfn
 
 ## Table of Contents
 
@@ -14,24 +14,24 @@ jidfhbdfndnfkodnldgm osmngldfnognsd
 
 ## Installation
 
-dofnlkdfnkldnf;ldf
+dfndklfnd
 ## Usage
 
-dfjndkfmnpdlf
+dkfndklfnmd
 
 
 ## License
 
-GNUGPLv3
+ISCLicense
 ---
 
 ## Additional Questions
 
 If you have any questions or concerns regarding the project, please feel free to reach out to me. Here are the ways you can contact me:
 
-Email: kdnfkldnfd
+Email: dfjhdkljfnd
 
-GitHub: https://github.com/kdfnkldfmnkl;df
+GitHub: https://github.com/dkfnkldf
 
 I will do my best to respond to your inquiries in a timely manner. Thank you for your interest in the project!
 
