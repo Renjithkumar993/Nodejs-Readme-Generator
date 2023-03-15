@@ -11,7 +11,7 @@ fs.readFile("readme.txt", "utf-8", (err, data) => {
       const userData = JSON.parse(objects[0]);
  
 const readme = `
-(![${userData.license}](https://img.shields.io/badge/License-${userData.license}-Green))
+![${userData.license}](https://img.shields.io/badge/License-${userData.license}-Green)
 # ${userData.titleName}
 
 ## Description
