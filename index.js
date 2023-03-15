@@ -73,7 +73,7 @@ inquirer.prompt([{
             description: response.description,
             installation: response.installation,
             usage: response.usage,
-            license: response.license,
+            license: response.license.replace(/\s+/g, ''),
             emailaddress: response.emailaddress,
             githubusername: response.githubusername,
             
