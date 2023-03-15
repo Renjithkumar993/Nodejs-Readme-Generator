@@ -1,5 +1,5 @@
 
-! [GNUGPLv3](https://img.shields.io/static/v1?label=License&message=GNUGPLv3&color=green)
+! [GNUGPLv3](https://img.shields.io/badge/License-Renjith-Green)
 # kjfbnjdkfd
 
 ## Description
