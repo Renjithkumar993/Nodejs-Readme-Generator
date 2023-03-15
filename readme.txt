@@ -1,3 +1,4 @@
+{"titleName":"Readme Generator","description":"jidfhbdfndnfkodnldgm osmngldfnognsd","installation":"dofnlkdfnkldnf;ldf","usage":"dfjndkfmnpdlf","license":"GNUGPLv3","emailaddress":"kdnfkldnfd","githubusername":"kdfnkldfmnkl;df"}
 {"titleName":"kjfbnjdkfd","description":"djkfndklfnd","installation":"dkfnkldf","usage":"dklfnkldf","license":"GNUGPLv3","emailaddress":"ldnfkldfm","githubusername":";ldmlf"}
 {"titleName":"","description":"","installation":"","usage":"","license":"ApacheundefinedLicense 2.0","emailaddress":"","githubusername":""}
 {"titleName":"kjefbnef","description":"djfnkdf","installation":"dkfnkdf","usage":"djfnkjdf","license":"GNU GPLv2","emailaddress":"jfnkdf","githubusername":"dkfnkdf"}

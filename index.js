@@ -79,7 +79,6 @@ inquirer.prompt([{
             
         };
 
-        console.log(response.githubsername);
         const fileName = 'readme.txt';
         const fileData = JSON.stringify(userData);
         
