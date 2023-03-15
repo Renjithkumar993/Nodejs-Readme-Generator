@@ -1,5 +1,5 @@
 
-https://img.shields.io/static/v1?label=License&message=GNU GPLv2&color=green
+https://img.shields.io/static/v1?label=License&message=GNUGPLv2&color=green
 # Calculator
 
 ## Description
