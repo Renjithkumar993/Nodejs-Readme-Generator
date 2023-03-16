@@ -34,7 +34,7 @@ ${userData.usage}
 
 ## License
 
-${userData.license}
+This application is licensed under ${userData.licenseForrender}.
 ---
 
 ## Additional Questions
