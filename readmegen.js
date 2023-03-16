@@ -12,9 +12,11 @@ fs.readFile("readme.txt", "utf-8", (err, data) => {
  
 const readme = `
 ![${userData.license}](https://img.shields.io/badge/License-${userData.license}-Green)
+
 # ${userData.titleName}
 
 ## Description
+
 ${userData.description}
 
 ## Table of Contents
@@ -27,6 +29,7 @@ ${userData.description}
 ## Installation
 
 ${userData.installation}
+
 ## Usage
 
 ${userData.usage}
@@ -36,8 +39,16 @@ ${userData.usage}
 
 ## License
 
-This application is licensed under ${userData.licenseForrender}.
+"This application is licensed under" ${userData.licenseForrender}.
 ---
+
+## How to Contribute
+
+${userData.contribute}
+
+## Tests
+
+${userData.tests}
 
 ## Additional Questions
 
@@ -63,21 +74,3 @@ fs.writeFile("README.md", readme, (err) => {
 
 
 module.exports = readmeWrite;
-
-
-
-
-// const readmelistrender = ()=>{
-//   fs.readFile("readme.txt", "utf-8", (err, data) => {
-//       if (err) {
-//         console.error(err);
-//       } else {
-//         const objects = data.split('\n');
-//         const userData = JSON.parse(objects);
-        
-//         for (data in userData){
-//           console.log(userData.titleName[5]);
-//         }
-//       }})}
-
-//   module.exports = readmelistrender;
