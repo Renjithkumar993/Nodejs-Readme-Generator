@@ -25,6 +25,9 @@ ${userData.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
@@ -39,10 +42,9 @@ ${userData.usage}
 
 ## License
 
-"This application is licensed under" ${userData.licenseForrender}.
----
+This application is licensed under ${userData.licenseForrender}.
 
-## How to Contribute
+## Contribute
 
 ${userData.contribute}
 
@@ -50,7 +52,7 @@ ${userData.contribute}
 
 ${userData.tests}
 
-## Additional Questions
+## Questions
 
 If you have any questions or concerns regarding the project, please feel free to reach out to me. Here are the ways you can contact me:
 
@@ -65,7 +67,9 @@ fs.writeFile("README.md", readme, (err) => {
     if (err) {
       console.error(err);
     } else {
+      console.log("******************************************")
       console.log(`${userData.titleName} Readme generated successfully!`);
+      console.log("******************************************")
     }
   });
 }

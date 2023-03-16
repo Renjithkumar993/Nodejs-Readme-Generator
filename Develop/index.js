@@ -1,6 +1,3 @@
-function init(){
-
-
 
 console.log("****************************************")
 console.log("Create README file answering few promts")
@@ -133,6 +130,3 @@ inquirer.prompt([
 
     }
     );
-}
-
-init();
