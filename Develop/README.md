@@ -1,11 +1,11 @@
 
-![GNUGPLv3](https://img.shields.io/badge/License-GNUGPLv3-Green)
+![ApacheLicense2.0](https://img.shields.io/badge/License-ApacheLicense2.0-Green)
 
-# Canada-Weather-5Day-Forcast-Dashboard
+# 
 
 ## Description
 
-The Weather Dashboard web application allows users to search for the current and future weather conditions for multiple cities. This application utilizes the OpenWeather API to retrieve weather data and presents the data in an easy-to-understand format
+
 
 ## Table of Contents
 
@@ -16,18 +16,18 @@ The Weather Dashboard web application allows users to search for the current and
 
 ## Installation
 
-There are no requirement of installing any application to run this .
+
 
 ## Usage
 
-he website is built using HTML, CSS, JavaScript, and utilizes the Bootstrap , jQuery libraries and OpenWeather API.
 
-![](application%20functionality.gif)
+
+![](./index.js)
 
 
 ## License
 
-"This application is licensed under" GNU GPLv3.
+"This application is licensed under" Apache License 2.0.
 ---
 
 ## How to Contribute
@@ -42,9 +42,9 @@ he website is built using HTML, CSS, JavaScript, and utilizes the Bootstrap , jQ
 
 If you have any questions or concerns regarding the project, please feel free to reach out to me. Here are the ways you can contact me:
 
-Email: renjithkumar993@gmail.com
+Email: 
 
-GitHub: https://github.com/renjithkumar993
+GitHub: https://github.com/
 
 I will do my best to respond to your inquiries in a timely manner. Thank you for your interest in the project!
 

@@ -78,12 +78,12 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: `If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.`,
+        message: `If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.\n`,
         name: "contribute"
     },
     {
         type: "input",
-        message: `provide examples on how to run test on your application here`,
+        message: `provide examples on how to run test on your application here\n`,
         name: "tests"
     },
 
