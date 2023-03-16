@@ -1,9 +1,9 @@
 
-![MIT](https://img.shields.io/badge/License-MIT-Green)
-# Personal portfolio
+![ISCLicense](https://img.shields.io/badge/License-ISCLicense-Green)
+# readme generator
 
 ## Description
-iashiufhusaigiuancioa\\
+hun
 
 ## Table of Contents
 
@@ -14,26 +14,26 @@ iashiufhusaigiuancioa\\
 
 ## Installation
 
-isafiuguiashciuncosa
+gui
 ## Usage
 
-oadniudvciucnc
+hnlk
 
-![](C:\Users\vmk870\Documents\challengeReadme\Nodejs-Readme-Generator\LICENSE)
+![](C:\Users\vmk870\Documents\challengeReadme\Nodejs-Readme-Generator\Capture.JPG)
 
 
 ## License
 
-This application is licensed under MIT.
+This application is licensed under ISC License.
 ---
 
 ## Additional Questions
 
 If you have any questions or concerns regarding the project, please feel free to reach out to me. Here are the ways you can contact me:
 
-Email: iasnklsfnlkc
+Email: jkbui
 
-GitHub: https://github.com/klnccnlkbkj c
+GitHub: https://github.com/jhin
 
 I will do my best to respond to your inquiries in a timely manner. Thank you for your interest in the project!
 
