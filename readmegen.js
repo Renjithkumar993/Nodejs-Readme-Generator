@@ -34,7 +34,7 @@ ${userData.installation}
 
 ${userData.usage}
 
-![](${userData.filepath})
+![](./${userData.filepath})
 
 
 ## License
