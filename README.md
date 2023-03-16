@@ -19,7 +19,7 @@ gui
 
 hnlk
 
-![](Capture.JPG)
+![]()
 
 
 ## License
