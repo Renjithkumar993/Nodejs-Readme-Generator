@@ -19,7 +19,7 @@ gui
 
 hnlk
 
-![](C:\Users\vmk870\Documents\challengeReadme\Nodejs-Readme-Generator\Capture.JPG)
+![](Nodejs-Readme-Generator\Capture.JPG)
 
 
 ## License
