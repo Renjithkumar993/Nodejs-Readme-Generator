@@ -19,7 +19,7 @@ gui
 
 hnlk
 
-![](Nodejs-Readme-Generator\Capture.JPG)
+![](.\Capture.JPG)
 
 
 ## License
