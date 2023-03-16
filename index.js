@@ -8,7 +8,7 @@ const inquirer = require("inquirer")
 const TreePrompt = require('inquirer-tree-prompt');
 
 inquirer.registerPrompt('tree', TreePrompt);
-
+const readmelistrender =  require("./readmegen")
 const readmeWrite = require("./readmegen");
 const prependFile = require('prepend-file');
 const { default: Choices } = require("inquirer/lib/objects/choices");
@@ -98,7 +98,6 @@ inquirer.prompt([{
             console.log(`Data saved to ${fileName} successfully and will be creating readmefile soon....`);
             setTimeout(() => {
                 readmeWrite();
-                readmelistrender ();
             }, "1500");
 
 

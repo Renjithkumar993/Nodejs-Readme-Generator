@@ -67,3 +67,17 @@ module.exports = readmeWrite;
 
 
 
+// const readmelistrender = ()=>{
+//   fs.readFile("readme.txt", "utf-8", (err, data) => {
+//       if (err) {
+//         console.error(err);
+//       } else {
+//         const objects = data.split('\n');
+//         const userData = JSON.parse(objects);
+        
+//         for (data in userData){
+//           console.log(userData.titleName[5]);
+//         }
+//       }})}
+
+//   module.exports = readmelistrender;
