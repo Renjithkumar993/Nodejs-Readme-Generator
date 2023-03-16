@@ -22,7 +22,7 @@ There are no requirement of installing any application to run this .
 
 he website is built using HTML, CSS, JavaScript, and utilizes the Bootstrap , jQuery libraries and OpenWeather API.
 
-![] (./application functionality.gif)
+! [] (./application functionality.gif)
 
 
 ## License
