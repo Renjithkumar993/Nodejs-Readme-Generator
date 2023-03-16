@@ -11,6 +11,10 @@ inquirer.registerPrompt('tree', TreePrompt);
 
 const readmeWrite = require("./readmegen");
 const prependFile = require('prepend-file');
+const { default: Choices } = require("inquirer/lib/objects/choices");
+const inquirerFileTreeSelection = require('inquirer-file-tree-selection-prompt')
+inquirer.registerPrompt('file-tree-selection', inquirerFileTreeSelection)
+
 
 
 
@@ -38,8 +42,12 @@ inquirer.prompt([{
     type: "input",
     message: `Provide instructions and examples for use.\n`,
     name: "usage"
-}
-    , {
+}, {
+    type: 'file-tree-selection',
+    message: 'choose screeshots or gif for usage section',
+    name: "filepath"
+
+}, {
     type: 'tree',
     name: 'license',
     message: 'Choose the license?',
@@ -58,7 +66,7 @@ inquirer.prompt([{
     message: `Please provide your email address\n`,
     name: "emailaddress"
 }
-,
+    ,
 {
     type: "input",
     message: `Please provide your github username\n`,
@@ -67,29 +75,33 @@ inquirer.prompt([{
 
 ])
     .then((response) => {
-
         const userData = {
             titleName: response.titileName,
             description: response.description,
             installation: response.installation,
             usage: response.usage,
+            filepath: response.filepath,
             license: response.license.replace(/\s+/g, ''),
-            licenseForrender : response.license,
+            licenseForrender: response.license,
             emailaddress: response.emailaddress,
             githubusername: response.githubusername,
-            
+
         };
 
-        const fileName = 'readme.txt';
-        const fileData = JSON.stringify(userData);
-        
 
-    prependFile(fileName,`${fileData}\n`)
- 
-        console.log(`Data saved to ${fileName} successfully and will be creating readmefile soon....`);
-        setTimeout(() => {
-            readmeWrite();
-        }, "1500");
+            const fileName = 'readme.txt';
+            const fileData = JSON.stringify(userData);
 
-    })
-  
+
+            prependFile(fileName, `${fileData}\n`)
+
+            console.log(`Data saved to ${fileName} successfully and will be creating readmefile soon....`);
+            setTimeout(() => {
+                readmeWrite();
+                readmelistrender ();
+            }, "1500");
+
+
+        }
+    );
+

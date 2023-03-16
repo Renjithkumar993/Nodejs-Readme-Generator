@@ -31,6 +31,8 @@ ${userData.installation}
 
 ${userData.usage}
 
+![](${userData.filepath})
+
 
 ## License
 
@@ -61,3 +63,7 @@ fs.writeFile("README.md", readme, (err) => {
 
 
 module.exports = readmeWrite;
+
+
+
+

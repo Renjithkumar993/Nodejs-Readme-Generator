@@ -11,6 +11,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "inquirer": "^8.2.4",
+    "inquirer-file-tree-selection-prompt": "^1.0.19",
     "inquirer-press-to-continue": "^1.1.4",
     "inquirer-tree-prompt": "^1.1.2",
     "prepend-file": "^2.0.1"
