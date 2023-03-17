@@ -1,5 +1,5 @@
 
-console.log("****************************************")
+console.log("******************************************")
 console.log("Create README file answering few promts")
 console.log("******************************************")
 
@@ -11,10 +11,10 @@ const path = require('path');
 
 
 inquirer.registerPrompt('tree', TreePrompt);
-const readmelistrender = require("./readmegen")
 const readmeWrite = require("./readmegen");
 const prependFile = require('prepend-file');
-const { default: Choices } = require("inquirer/lib/objects/choices");
+
+
 const inquirerFileTreeSelection = require('inquirer-file-tree-selection-prompt')
 inquirer.registerPrompt('file-tree-selection', inquirerFileTreeSelection)
 
@@ -41,11 +41,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: `Description for your project\nProvide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-    - What was your motivation?
-    - Why did you build this project?
-    - What problem does it solve?
-    - What did you learn?\n`,
+        message: `Description for your project\nProvide a short description explaining the what, why, and how of your project. Use the following questions as a guide:\n`,
         name: "description"
     },
     {
@@ -56,26 +52,10 @@ inquirer.prompt([
         type: "input",
         message: `Provide instructions and examples for use.\n`,
         name: "usage"
-    }, {
-        type: 'file-tree-selection',
-        message: 'choose screeshots or gif for usage section',
-        name: "filepath",
-
-    }, {
-        type: 'tree',
-        name: 'license',
-        message: 'Choose the license?',
-        tree: [
-            { value: "Apache License 2.0" },
-            { value: "MIT" },
-            { value: "GNU GPLv3" },
-            { value: "GNU GPLv2" },
-            { value: "ISC License" },
-        ]
-    },
+    },  
     {
         type: "input",
-        message: `If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.\n`,
+        message: `If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do here.\n`,
         name: "contribute"
     },
     {
@@ -96,6 +76,24 @@ inquirer.prompt([
         message: `Please provide your github username\n`,
         name: "githubusername"
     },
+    {
+        type: 'tree',
+        name: 'license',
+        message: 'Choose the license?',
+        tree: [
+            { value: "Apache License 2.0" },
+            { value: "MIT" },
+            { value: "GNU GPLv3" },
+            { value: "GNU GPLv2" },
+            { value: "ISC License" },
+        ],
+    },
+    {
+        type: 'file-tree-selection',
+        message: 'choose screeshots or gif for usage section',
+        name: "filepath",
+
+    },
 
 ])
 
@@ -106,8 +104,8 @@ inquirer.prompt([
             installation: response.installation,
             usage: response.usage,
             filepath: path.basename(response.filepath),
-            contribute:response.contribute,
-            tests:response.tests,
+            contribute: response.contribute,
+            tests: response.tests,
             license: response.license.replace(" ", "_"),
             emailaddress: response.emailaddress,
             githubusername: response.githubusername,
