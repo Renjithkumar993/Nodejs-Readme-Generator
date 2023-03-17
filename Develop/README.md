@@ -25,7 +25,7 @@ There are no requirement of installing any application to run this
 
 To accesss this website/application to play Quiz please visit https://renjithkumar993.github.io/Quiz-game/
 
-![] (./Code Quiz.gif)
+![] (/Code Quiz.gif)
 
 
 ## License
