@@ -1,11 +1,11 @@
 
-![GNU_GPLv2](https://img.shields.io/badge/License-GNU_GPLv2-Green)
+![MIT](https://img.shields.io/badge/License-MIT-Green)
 
-# fdfd
+# Quiz-game
 
 ## Description
 
-dfdfd
+A timed coding quiz to test your knowledge of JavaScript fundamentals.
 
 ## Table of Contents
 
@@ -19,34 +19,34 @@ dfdfd
 
 ## Installation
 
-dfdf
+There are no requirement of installing any application to run this 
 
 ## Usage
 
-fdfd
+To accesss this website/application to play Quiz please visit https://renjithkumar993.github.io/Quiz-game/
 
-![](./readmegen.js)
+![](./Code Quiz.gif)
 
 
 ## License
 
-This application is licensed under GNU GPLv2.
+This application is licensed under MIT.
 
 ## Contribute
 
-fdfdf
+n/a
 
 ## Tests
 
-dfdfdf
+npm test
 
 ## Questions
 
 If you have any questions or concerns regarding the project, please feel free to reach out to me. Here are the ways you can contact me:
 
-Email: dfdfdf
+Email: renjithkumar993@gmail.com
 
-GitHub: https://github.com/dfdfdf
+GitHub: https://github.com/renjithkumar993
 
 I will do my best to respond to your inquiries in a timely manner. Thank you for your interest in the project!
 

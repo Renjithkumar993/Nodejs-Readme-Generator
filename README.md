@@ -7,9 +7,9 @@ This is a command-line application that dynamically generates a professional REA
 ## Installation
 To install this application, please follow these steps:
 
-Clone the repository to your local machine using git clone <git@github.com:Renjithkumar993/Nodejs-Readme-Generator.git>
-Open the terminal and navigate to the project directory.
-Run npm install in the terminal to install the necessary dependencies.
+ Clone the repository to your local machine using git clone .
+ Open the terminal and navigate to the project directory.
+ Run npm install in the terminal to install the necessary dependencies.
 
 
 ## Usage
