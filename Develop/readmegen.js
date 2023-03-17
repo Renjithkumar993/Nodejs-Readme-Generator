@@ -42,7 +42,7 @@ ${userData.usage}
 
 ## License
 
-This application is licensed under ${userData.licenseForrender}.
+This application is licensed under ${userData.license}.
 
 ## Contribute
 

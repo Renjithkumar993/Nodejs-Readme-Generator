@@ -108,8 +108,7 @@ inquirer.prompt([
             filepath: path.basename(response.filepath),
             contribute:response.contribute,
             tests:response.tests,
-            license: response.license.replace(/\s+/g, ''),
-            licenseForrender: response.license,
+            license: response.license.replace(" ", "_"),
             emailaddress: response.emailaddress,
             githubusername: response.githubusername,
 
