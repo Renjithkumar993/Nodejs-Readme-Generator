@@ -1,7 +1,7 @@
 # Nodejs-Readme-Generator
 
 ## Description
-This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. The README file will include a title, description, table of contents, installation instructions, usage information, contribution guidelines, test instructions, license information, and contact information.
+This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. The README file will include a title, description, table of contents, installation instructions, usage information with option to attach screenschots or gif, contribution guidelines, test instructions, license information, and contact information.
 
 
 ## Installation
